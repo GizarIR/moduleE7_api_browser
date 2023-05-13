@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Example SVG</title>
+</head>
+<body>
+    <h1>Работа с SVG</h1>
+    
+    <br>
+
+    <button class="btn j-btn-test">
+    <div class="btn_text">Имитация запроса данных</div>
+    
+    <div class="btn_icon">
+        <!--   начало вставки SVG - 1  иконки   -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-left-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-5.904-2.854a.5.5 0 1 1 .707.708L6.707 9.95h2.768a.5.5 0 1 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.475a.5.5 0 1 1 1 0v2.768l4.096-4.097z"/>
+        </svg>
+        <!--   конец вставки SVG - 1 иконки   -->
+        <!--   начало вставки SVG - 2  иконки   -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-left-circle-fill hidden" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-5.904-2.803a.5.5 0 1 1 .707.707L6.707 10h2.768a.5.5 0 0 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.525a.5.5 0 0 1 1 0v2.768l4.096-4.096z"/>
+        </svg>
+        <!--   конец вставки SVG - 2 иконки   -->
+
+    </div>
+    
+    </button>
+    
+    <br>
+
+    <div class="flags_list">
+        <div class="flag_item">
+            <svg>
+                <rect style="fill: rgb(0, 140, 255)" x="0" y="40" width="180" height="40" />
+                <rect style="fill: red" x="0" y="80" width="180" height="40"/>
+            </svg>
+        </div>
+        <div class="flag_item">
+            <svg>
+                <rect style="fill: blue" x="0" y="0" width="60" height="120" />
+                <rect style="fill: red" x="120" y="0" width="60" height="120"/>
+            </svg>
+        </div>
+        <div class="flag_item">
+            <svg>
+                <rect style="fill: blue" x="0" y="40" width="180" height="40" />
+                <rect style="fill: blue" x="40" y="0" width="40" height="120" />
+            </svg>
+        </div>
+        <div class="flag_item">
+            <svg>
+                <circle style="fill: red" cx="90" cy="60" r="40"/>
+            </svg>
+        </div>       
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.nav {
+    display: flex;
+}
+
+.nav_item {
+    width: 180px;
+    height: 120px;
+    border: 0.5px solid black;
+}
